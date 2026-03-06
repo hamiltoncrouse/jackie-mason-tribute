@@ -1,0 +1,12 @@
+# Render Blueprint (Infrastructure as Code)
+# When this file exists in your repo, Render can create the service automatically.
+# In Render: New + -> Blueprint -> select this repo.
+
+services:
+  - type: web
+    name: jackie-mason-tribute
+    runtime: static
+    plan: free
+    branch: main
+    buildCommand: echo "No build step"
+    staticPublishPath: .
