@@ -127,12 +127,8 @@ a{color:inherit}
   position:absolute;
   inset:-2px;
   background:
-    linear-gradient(to bottom, rgba(0,0,0,.55), rgba(0,0,0,.10)),
-    url("../assets/img/bg-artdeco.png"),
     radial-gradient(600px 320px at 50% 0%, rgba(246,193,119,.25), transparent 60%),
     radial-gradient(800px 420px at 60% 20%, rgba(125,211,252,.18), transparent 60%);
-  background-size: cover;
-  background-position: center;
   pointer-events:none;
   filter: saturate(1.05) contrast(1.02);
 }
