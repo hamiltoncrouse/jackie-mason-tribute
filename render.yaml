@@ -6,7 +6,6 @@ services:
   - type: web
     name: jackie-mason-tribute
     runtime: static
-    plan: free
     branch: main
     buildCommand: echo "No build step"
     staticPublishPath: .
