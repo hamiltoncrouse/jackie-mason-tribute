@@ -4,7 +4,7 @@
   const modeLabel = document.getElementById('modeLabel');
   const copyLink = document.getElementById('copyLink');
 
-  const getTheme = () => localStorage.getItem('jm-theme') || 'night';
+  const getTheme = () => localStorage.getItem('jm-theme') || 'day';
   const setTheme = (t) => {
     localStorage.setItem('jm-theme', t);
     if (t === 'day') {
